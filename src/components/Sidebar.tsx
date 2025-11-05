@@ -1,6 +1,7 @@
 import {
   Home,
   BarChart2,
+  PieChart as PieChartIcon,
   Settings,
   ChevronLeft,
   ChevronRight,
@@ -27,6 +28,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   const navItems = [
     { name: "Dashboard", icon: Home, path: "/" },
     { name: "Analytics", icon: BarChart2, path: "/analytics" },
+    { name: "Pie Chart", icon: PieChartIcon, path: "/piechart" }, // ✅ new route added
   ];
 
   return (
