@@ -74,7 +74,7 @@ const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
             }}
           >
             <img
-              src="https://via.placeholder.com/42"
+              src="https://placehold.co/42x42"
               alt="User"
               className="w-8 h-8 rounded-full"
             />
