@@ -11,10 +11,13 @@
   },
   "dependencies": {
     "chart.js": "^4.5.1",
+    "chartjs-chart-matrix": "^3.0.0",
     "lucide-react": "^0.552.0",
     "react": "^19.1.1",
     "react-chartjs-2": "^5.3.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.5",
+    "react-tooltip": "^5.30.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -22,6 +25,7 @@
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
+    "@types/react-tooltip": "^3.11.0",
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.36.0",
